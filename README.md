@@ -6,7 +6,7 @@ A small tools to connect with BigBlueButton api and create room and join and mor
 
 ```php
 <?php
-include "_core.php";
+include "_bbbapi.php";
 $res=call("create", []);
 print_r($res);
 ?>
@@ -64,6 +64,10 @@ $res=call("join", [
 print_r($res);
 ?>
 ```
+
+## Depends on
+
+- https://github.com/BaseMax/netphp
 
 ## Relateds
 
