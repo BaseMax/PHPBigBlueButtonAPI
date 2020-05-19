@@ -1,6 +1,23 @@
-# BigBlueButton API
+# BBBPHP
 
 A small tools to connect with BigBlueButton api and create room and join and more works.
+
+# BigBlueButton API
+
+For connect to BBB, you will need a secret key and BBB url.
+
+## How find secret key and URL of bbb?
+
+Let's go to your server and run command below:
+
+#### $ bbb-conf --secret
+```
+URL: https://****************/bigbluebutton/
+Secret: FGOqT60v**************d02wLn2NFO8zyoI
+
+Link to the API-Mate:
+https://mconf.github.io/api-mate/#server=https://********/bigbluebutton/&sharedSecret=FGOqT60v**************d02wLn2NFO8zyoI
+```
 
 ## Using
 
