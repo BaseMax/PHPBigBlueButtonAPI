@@ -49,3 +49,18 @@ $res=call("join", [
 print_r($res);
 ?>
 ```
+
+### Join Room as User
+
+```php
+<?php
+$res=call("join", [
+	"fullName"=>"Member",
+	"meetingID"=>$room[1]["meetingID"],
+	"password"=>"ap",
+	"join_via_html5"=>true,
+	"redirect"=>true,
+]);
+print_r($res);
+?>
+```
