@@ -91,6 +91,7 @@ print_r($res);
 ## Relateds
 
 - https://mconf.github.io/api-mate/
+- https://github.com/omarshammas/bigbluebutton-API-Buddy
 
 ## What's Big Blue Button or BBB?
 
