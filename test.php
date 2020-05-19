@@ -31,3 +31,7 @@ $res=call("join", [
 	"redirect"=>true,
 ]);
 print_r($res);
+
+// $res=get($res[1]["url"]);
+// print_r($res);
+// file_put_contents("join.html", $res[0]);
