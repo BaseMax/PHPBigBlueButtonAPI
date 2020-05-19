@@ -1,5 +1,5 @@
 <?php
-include "_core.php";
+include "_bbbapi.php";
 $res=call("create", [
 	"allowStartStopRecording"=>true,
 	"attendeePW"=>"ap",
