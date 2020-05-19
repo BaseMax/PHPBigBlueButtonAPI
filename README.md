@@ -33,3 +33,19 @@ $room=$res;
 print_r($res);
 ?>
 ```
+
+
+### Join Room as Admin
+
+```php
+<?php
+$res=call("join", [
+	"fullName"=>"Admin",
+	"meetingID"=>$room[1]["meetingID"],
+	"password"=>"mp",
+	"join_via_html5"=>true,
+	"redirect"=>true,
+]);
+print_r($res);
+?>
+```
