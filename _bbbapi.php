@@ -1,7 +1,7 @@
 <?php
 // Max Base
 // _bbbapi.php
-// https://github.com/BaseMax/BigBlueButtonAPI
+// https://github.com/BaseMax/PHPBigBlueButtonAPI
 include "_phpnet.php";
 $host="https://maxbase.org/bigbluebutton/"; // you need to change domain
 $key="********"; // you need to change secret key
